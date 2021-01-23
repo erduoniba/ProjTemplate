@@ -1,6 +1,6 @@
 // configs.js
 var configs = {
-    "Module": "DownloadManager",
+    "Module": "Order",
     "author": "denglibing"
   }
 module.exports = configs;

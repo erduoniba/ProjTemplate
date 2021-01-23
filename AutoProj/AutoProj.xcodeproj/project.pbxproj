@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		991D4054B1BF4A3FFA362E49 /* HDS{{Module}}ViewModel.swift in Resources */ = {isa = PBXBuildFile; fileRef = 529BC471FABE9336FF9FC7F2 /* HDS{{Module}}ViewModel.swift */; };
-		D1C37A2B711BA08C2B052849 /* HDSS{{Module}}ViewModel.swift in Resources */ = {isa = PBXBuildFile; fileRef = 3705632C58FF99D0E94250D9 /* HDSS{{Module}}ViewModel.swift */; };
+		7DDC4473C66F788E43F1DCEE /* HD{{Module}}ViewModel.swift in Resources */ = {isa = PBXBuildFile; fileRef = FF8FFE862C889CB12134C4E7 /* HD{{Module}}ViewModel.swift */; };
+		A666510DF7E9174B13341EE5 /* HD{{Module}}ViewModel.swift in Resources */ = {isa = PBXBuildFile; fileRef = 6C541F7E4E0B8EFF5F9CA75D /* HD{{Module}}ViewModel.swift */; };
 		D933508925BB1238005ABC65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D933508825BB1238005ABC65 /* AppDelegate.swift */; };
 		D933508B25BB1238005ABC65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D933508A25BB1238005ABC65 /* SceneDelegate.swift */; };
 		D933508D25BB1238005ABC65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D933508C25BB1238005ABC65 /* ViewController.swift */; };
@@ -18,8 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3705632C58FF99D0E94250D9 /* HDSS{{Module}}ViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HDSS{{Module}}ViewModel.swift"; path = "PGServiceModule/DNodeList/HDSS{{Module}}ViewModel.swift"; sourceTree = "<group>"; };
-		529BC471FABE9336FF9FC7F2 /* HDS{{Module}}ViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HDS{{Module}}ViewModel.swift"; path = "PGServiceModule/DMenuList/HDS{{Module}}ViewModel.swift"; sourceTree = "<group>"; };
+		6C541F7E4E0B8EFF5F9CA75D /* HD{{Module}}ViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HD{{Module}}ViewModel.swift"; path = "PGServiceModule/DMenuList/HD{{Module}}ViewModel.swift"; sourceTree = "<group>"; };
 		D933508525BB1238005ABC65 /* AutoProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D933508825BB1238005ABC65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D933508A25BB1238005ABC65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +27,7 @@
 		D933509125BB123A005ABC65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D933509425BB123A005ABC65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D933509625BB123A005ABC65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF8FFE862C889CB12134C4E7 /* HD{{Module}}ViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HD{{Module}}ViewModel.swift"; path = "PGServiceModule/DNodeList/HD{{Module}}ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,21 +41,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B2744FFCEE9E972D807A97B /* PGServiceModule */ = {
+		1E6A1231238BC6DC532D3B9D /* DMenuList */ = {
 			isa = PBXGroup;
 			children = (
-				EB221AD5F4DDA8890FF75191 /* DMenuList */,
-				38D928759F46ECAF74BD3558 /* DNodeList */,
+				6C541F7E4E0B8EFF5F9CA75D /* HD{{Module}}ViewModel.swift */,
 			);
-			name = PGServiceModule;
+			name = DMenuList;
 			sourceTree = "<group>";
 		};
-		38D928759F46ECAF74BD3558 /* DNodeList */ = {
+		9801B9F633C8C9D75090A2CD /* DNodeList */ = {
 			isa = PBXGroup;
 			children = (
-				3705632C58FF99D0E94250D9 /* HDSS{{Module}}ViewModel.swift */,
+				FF8FFE862C889CB12134C4E7 /* HD{{Module}}ViewModel.swift */,
 			);
 			name = DNodeList;
+			sourceTree = "<group>";
+		};
+		C68907A124FD8B4AF50DD2A7 /* PGServiceModule */ = {
+			isa = PBXGroup;
+			children = (
+				1E6A1231238BC6DC532D3B9D /* DMenuList */,
+				9801B9F633C8C9D75090A2CD /* DNodeList */,
+			);
+			name = PGServiceModule;
 			sourceTree = "<group>";
 		};
 		D933507C25BB1238005ABC65 = {
@@ -84,17 +92,9 @@
 				D933509125BB123A005ABC65 /* Assets.xcassets */,
 				D933509325BB123A005ABC65 /* LaunchScreen.storyboard */,
 				D933509625BB123A005ABC65 /* Info.plist */,
-				1B2744FFCEE9E972D807A97B /* PGServiceModule */,
+				C68907A124FD8B4AF50DD2A7 /* PGServiceModule */,
 			);
 			path = AutoProj;
-			sourceTree = "<group>";
-		};
-		EB221AD5F4DDA8890FF75191 /* DMenuList */ = {
-			isa = PBXGroup;
-			children = (
-				529BC471FABE9336FF9FC7F2 /* HDS{{Module}}ViewModel.swift */,
-			);
-			name = DMenuList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,8 +157,8 @@
 				D933509525BB123A005ABC65 /* LaunchScreen.storyboard in Resources */,
 				D933509225BB123A005ABC65 /* Assets.xcassets in Resources */,
 				D933509025BB1238005ABC65 /* Main.storyboard in Resources */,
-				991D4054B1BF4A3FFA362E49 /* HDS{{Module}}ViewModel.swift in Resources */,
-				D1C37A2B711BA08C2B052849 /* HDSS{{Module}}ViewModel.swift in Resources */,
+				A666510DF7E9174B13341EE5 /* HD{{Module}}ViewModel.swift in Resources */,
+				7DDC4473C66F788E43F1DCEE /* HD{{Module}}ViewModel.swift in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

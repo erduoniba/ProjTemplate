@@ -6,6 +6,6 @@
 import UIKit
 
 class HD{{Module}}ViewModel {
-
+    
 }
 
