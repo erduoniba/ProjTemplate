@@ -1,14 +1,6 @@
 [
 	{
 		"proj_path": "AutoProj.xcodeproj",
-		"parent_path": "PGServiceModule",
-		"moudels": [
-			{
-				"moudel_name": "DMenuList"
-			},
-			{
-				"moudel_name": "DNodeList"
-			}
-		]
+		"parent_path": "PGPaySuccess"
 	}
 ]

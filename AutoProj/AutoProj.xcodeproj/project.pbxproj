@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7DDC4473C66F788E43F1DCEE /* HD{{Module}}ViewModel.swift in Resources */ = {isa = PBXBuildFile; fileRef = FF8FFE862C889CB12134C4E7 /* HD{{Module}}ViewModel.swift */; };
 		A666510DF7E9174B13341EE5 /* HD{{Module}}ViewModel.swift in Resources */ = {isa = PBXBuildFile; fileRef = 6C541F7E4E0B8EFF5F9CA75D /* HD{{Module}}ViewModel.swift */; };
+		AD354D8125C19819005D0E77 /* PGPaySuccess in Resources */ = {isa = PBXBuildFile; fileRef = AD354D8025C19819005D0E77 /* PGPaySuccess */; };
 		D933508925BB1238005ABC65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D933508825BB1238005ABC65 /* AppDelegate.swift */; };
 		D933508B25BB1238005ABC65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D933508A25BB1238005ABC65 /* SceneDelegate.swift */; };
 		D933508D25BB1238005ABC65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D933508C25BB1238005ABC65 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		6C541F7E4E0B8EFF5F9CA75D /* HD{{Module}}ViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HD{{Module}}ViewModel.swift"; path = "PGServiceModule/DMenuList/HD{{Module}}ViewModel.swift"; sourceTree = "<group>"; };
+		AD354D8025C19819005D0E77 /* PGPaySuccess */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PGPaySuccess; sourceTree = "<group>"; };
 		D933508525BB1238005ABC65 /* AutoProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D933508825BB1238005ABC65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D933508A25BB1238005ABC65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				D933509325BB123A005ABC65 /* LaunchScreen.storyboard */,
 				D933509625BB123A005ABC65 /* Info.plist */,
 				C68907A124FD8B4AF50DD2A7 /* PGServiceModule */,
+				AD354D8025C19819005D0E77 /* PGPaySuccess */,
 			);
 			path = AutoProj;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			files = (
 				D933509525BB123A005ABC65 /* LaunchScreen.storyboard in Resources */,
 				D933509225BB123A005ABC65 /* Assets.xcassets in Resources */,
+				AD354D8125C19819005D0E77 /* PGPaySuccess in Resources */,
 				D933509025BB1238005ABC65 /* Main.storyboard in Resources */,
 				A666510DF7E9174B13341EE5 /* HD{{Module}}ViewModel.swift in Resources */,
 				7DDC4473C66F788E43F1DCEE /* HD{{Module}}ViewModel.swift in Resources */,
@@ -321,6 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HQ353LFGTA;
 				INFOPLIST_FILE = AutoProj/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -340,6 +345,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HQ353LFGTA;
 				INFOPLIST_FILE = AutoProj/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
